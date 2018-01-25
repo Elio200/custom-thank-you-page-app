@@ -1,0 +1,666 @@
+ 
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="pt-br">
+<TITLE>...&#58;&#58;&#58;&nbsp;FORMUL&Aacute;RIO&nbsp;DE&nbsp;CADASTRO&nbsp;PESSOA&nbsp;J&Uacute;RIDICA&nbsp;&#58;&#58;&#58;...</TITLE>
+<!----Pedimos a colaboração aos usuários deste formulário, que não retirem os dados dos direitos autorais------>
+<!----Formulário desenvolvido por Nascimento Grupo NASCTEM - e-mail: admin@nasctem.com nasctem@yahoo.com.br------>
+<!----Formulário desenvolvido em 20/08/2004 a primeira versão, somente agora estamos disponibilizando 
+a versão atualizada do mesmo v2.8.0------->
+<STYLE>.cellbox {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #888888 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #888888 1px solid
+}
+.box-header {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.frm {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f0f0f0
+}
+.frm-on {
+	BORDER-RIGHT: rgb(70,90,138) 1px solid; BORDER-TOP: rgb(70,90,128) 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: rgb(70,90,128) 1px solid; COLOR: rgb(70,90,128); BORDER-BOTTOM: rgb(70,90,128) 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: rgb(67,175,1955)
+}
+.text-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Verdana
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: rgb(0,128,255); FONT-FAMILY: Verdana
+}
+</STYLE>
+ 
+<SCRIPT language=JavaScript>
+<!--
+function SymError()
+{
+  return true;
+}
+window.onerror = SymError;
+//-->
+    </SCRIPT>
+ 
+<SCRIPT>
+      function displayText( sText ) {
+        document.getElementById("displayArea").innerHTML = sText;
+      }
+    </SCRIPT>
+ 
+<style fprolloverstyle>A:hover {color: #FF0000; font-family: Verdana; font-size: 10 px; font-variant: small-caps; font-weight: bold}
+</style>
+ 
+</HEAD>
+<BODY bgcolor="#1FC8EB" topmargin="0" leftmargin="0">
+<CENTER>
+<table border="2" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000066" width="567" id="AutoNumber2" height="85" bgcolor="#33597C">
+  <tr>
+    <td width="563" height="85" valign="middle">
+    <p align="center">
+    <img border="0" src="images/seu_logo_aqui_01.gif" width="327" height="70"></td>
+  </tr>
+</table>
+<TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" borderColor=#000066 
+height=275 cellSpacing=0 cellPadding=0 width=502 border=2 bgcolor="#33597C">
+  <TBODY>
+  <TR>
+    <TD width=502 bgColor=#000066 height=18>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><b>
+      <font face="Verdana" size="2" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+      </font>
+      <font face="Verdana" size="2" color="#66CCFF">&nbsp;...&#58;&#58;:&nbsp;Formul&aacute;rio&nbsp;
+      de&nbsp;Cadastro&nbsp;Pessoa&nbsp;J&uacute;ridica&nbsp;&#58;&#58;&#58;...</font></b></P></TD></TR>
+  <TR>
+    <TD align=center width=502 height=253>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"><FONT face=Verdana 
+      size=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </FONT><FONT face=Verdana 
+      size=2><b><font color="#AFA461">Preencha&nbsp; 
+      corretamente&nbsp;o&nbsp;formul&aacute;rio&nbsp;a&nbsp;baixo&#58;</font></b></FONT></P>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">
+      <font face="Verdana" size="2"><b>&nbsp;<font color="#AFA461">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </font><font color="#FF0000"><span style="background-color: #000000">Todos 
+      os campos são obrigatório o preenchimento</span></font></b></font></P>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center>
+      <FORM style="MARGIN: 0px; WORD-SPACING: 0px" name=form action=cadastro.php
+      method=post>
+      <DIV align=center>
+      <CENTER>
+      <TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" 
+      borderColor=#111111 height=210 cellSpacing=0 cellPadding=0 width=563 
+      border=0 bgcolor="#33597C">
+        <TBODY>
+        <TR>
+          <TD width=188 height=11>
+          <p align="right">
+          <b><font face="Verdana" style="font-size: 9pt" color="#AFA461">Raz&atilde;o&nbsp;
+          Social&#58;</font></b></TD>
+          <TD width=369 height=11 align="center">
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;');"
+            maxLength=60 size=51 name=razaosocial></span></b></font></SPAN></P></TD></TR>
+        <tr>
+          <TD width=188 height=6>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Nome&nbsp;
+          Fantasia&#58;</font></b></TD>
+          <TD width=369 height=6 align="center">
+            <p align="left">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o nome Fantasia');" 
+            maxLength=50 size=51 name=nomefantasia></span></b></font></SPAN></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=10>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">CNPJ&#58;</font></b></TD>
+          <TD width=369 height=10 align="center">
+            <p align="left"><font face="Verdana" size="1">
+            <b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o CNPJ da empresa');" 
+            maxLength=19 size=22 name=cnpj>&nbsp; </span></SPAN>
+            <span style="font-size: 9pt">
+            <font color="#AFA461">somente&nbsp;n&uacute;meros</font></span></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=9>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">IE&#58;</font></b></TD>
+          <TD width=369 height=9 align="center">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite a inscrição Estadual');" 
+            maxLength=15 size=22 name=ie></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=11>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">IM&#58;</font></b></TD>
+          <TD width=369 height=11 align="center">
+            <p align="left"><font face="Verdana" size="1">
+            <SPAN 
+            class=box-header><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Marque com X se Isento');" 
+            maxLength=15 size=22 name=im>&nbsp;</span></b></SPAN></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=12>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">DDD&#58;</font></b></TD>
+          <TD width=369 height=12 align="center">
+            <p align="left"><font face="Verdana" size="1">
+            <SPAN 
+            class=box-header><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o DDD de sua localidade');" 
+            maxLength=3 size=3 name=ddd></span></b></SPAN><b><SPAN 
+            class=box-header><span style="font-size: 9pt">&nbsp;</span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=5>
+          <p align="right"><b>
+            <font face="Verdana" style="font-size: 9pt" color="#AFA461">
+            Telefone:</font></b></TD>
+          <TD width=369 height=5 align="center">
+            <p align="left"><font face="Verdana" size="1"><b><SPAN 
+            class=box-header><span style="font-size: 9pt"><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o número de telefone fixo');" 
+            maxLength=9 size=9 name=telefone></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=8>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Fax&#58;</font></b></TD>
+          <TD width=369 height=8 align="center">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o número do Fax com o DDD');" 
+            maxLength=14 size=14 name=fax></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=8>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Endereço&#58;</font></b></TD>
+          <TD width=369 height=8 align="center">
+            <p align="left">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o endereço');" 
+            maxLength=60 size=46 name=endereco></span></b></font></SPAN></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=12>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">N&uacute;mero&#58;</font></b></TD>
+          <TD width=369 height=12 align="center">
+            <p align="left"><font face="Verdana" size="1">
+            <SPAN 
+            class=box-header><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o número do local');" 
+            maxLength=6 size=6 name=numero></span></b></SPAN></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=5>
+          <p align="right"><font face="Verdana" size="1">
+            <b>
+            <span style="font-size: 9pt">
+            <font color="#AFA461">Complemento&#58;</font></span></b></font></TD>
+          <TD width=369 height=5 align="center">
+            <p align="left"><font face="Verdana" size="1">
+            <SPAN 
+            class=box-header><b><span style="font-size: 9pt"><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o número do complemento se houver');" 
+            maxLength=6 size=6 name=complemento></span></b></SPAN></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=8>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Bairro&#58;</font></b></TD>
+          <TD width=369 height=8 align="center">
+            <p align="left"><font face="Verdana" size="1">
+            <SPAN 
+            class=box-header><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o nome do Bairro');" 
+            maxLength=30 size=30 name=bairro></span></b></SPAN></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=11>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Cidade&#58;</font></b></TD>
+          <TD width=369 height=11 align="center">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite nome da Cidade');" 
+            maxLength=30 size=35 name=cidade></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=6>
+          <p align="right"><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <font color="#AFA461">CEP:</font></span></b></font></TD>
+          <TD width=369 height=6 align="center">
+            <p align="left"><font face="Verdana" size="1"><SPAN 
+            class=box-header><b><span style="font-size: 9pt"><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o CEP local');" 
+            maxLength=9 size=9 name=cep></span></b></SPAN></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=11>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Estado&nbsp;UF&#58;</font></b></TD>
+          <TD width=369 height=11 align="center">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite a sigla do estado (UF)');" 
+            maxLength=2 size=2 name=uf></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=6>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">E-mail&#58;</font></b></TD>
+          <TD width=369 height=6 align="center">
+            <p align="left"><SPAN 
+            class=box-header><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o e-mail, ex: user@user.com.br');" 
+            maxLength=100 size=42 name=email></span></b></font></SPAN></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=4 bgcolor="#000000">
+          </TD>
+          <TD width=369 height=4 align="center" bgcolor="#000000">
+            <p align="left"></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=8>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">
+          Respons&aacute;vel&#58;</font></b></TD>
+          <TD width=369 height=8 align="center">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite seu Nome');" 
+            maxLength=30 size=35 name=responsavel></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=9>
+          <p align="right"><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <font color="#AFA461">(DDD)&nbsp;e&nbsp;Telefone:</font></span></b></font></TD>
+          <TD width=369 height=9 align="center" valign="middle">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header><span style="font-size: 9pt"><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite seu número de telefone fixo com o DDD');" 
+            maxLength=14 size=14 name=telresp></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=4 bgcolor="#000000">
+          </TD>
+          <TD width=369 height=4 align="center" bgcolor="#000000">
+            </TD>
+        </tr>
+        <tr>
+          <TD width=188 height=21 bgcolor="#000066" valign="middle">
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">
+          Referências</font></b></TD>
+          <TD width=369 height=21 align="center" bgcolor="#000066">
+            <p align="left"><b>
+            <font face="Verdana" style="font-size: 9pt" color="#AFA461">&nbsp;Comerciais</font></b></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=8>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Empresa&#58;</font></b></TD>
+          <TD width=369 height=8 align="center">
+            <p align="left">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o nome da empresa');" 
+            maxLength=60 size=51 name=empresaref></span></b></font></SPAN></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=7>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">(DDD) e 
+          Telefone&#58;</font></b></TD>
+          <TD width=369 height=7 align="center">
+            <p align="left"><font face="Verdana" size="1"><b><SPAN 
+            class=box-header><span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o telefone da empresa');" 
+            maxLength=14 size=14 name=telefoneref>&nbsp;</span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=7>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Contato&#58;</font></b></TD>
+          <TD width=369 height=7 align="center" valign="bottom">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite nome do contato');" 
+            maxLength=30 size=35 name=contatoref></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=5 bgcolor="#000000">
+          </TD>
+          <TD width=369 height=5 align="center" bgcolor="#000000">
+            </TD>
+        </tr>
+        <tr>
+          <TD width=188 height=11>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Empresa&#58;</font></b></TD>
+          <TD width=369 height=11 align="center">
+            <p align="left">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o nome da empresa');" 
+            maxLength=60 size=51 name=empresaref1></span></b></font></SPAN></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=8>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">(DDD)&nbsp;e&nbsp;
+          Telefone&#58;</font></b></TD>
+          <TD width=369 height=8 align="center">
+            <p align="left"><font face="Verdana" size="1"><b><SPAN 
+            class=box-header><span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o DDD e telefone fixo');" 
+            maxLength=14 size=14 name=telefoneref1></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=9>
+          <p align="right"><b>
+          <font face="Verdana" style="font-size: 9pt" color="#AFA461">Contato&#58;</font></b></TD>
+          <TD width=369 height=9 align="center">
+            <p align="left"><font face="Verdana" size="1"><b>
+            <SPAN 
+            class=box-header>
+            <span style="font-size: 9pt">
+            <INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite o nome do contato');" 
+            maxLength=30 size=35 name=contatoref1></span></SPAN></b></font></TD>
+        </tr>
+        <tr>
+          <TD width=188 height=5 bgcolor="#000000">
+          </TD>
+          <TD width=369 height=5 align="center" bgcolor="#000000">
+            </TD>
+        </tr>
+       
+        <TR>
+          <TD width=188 height=41>
+          <p align="right">
+            <SPAN 
+            class=box-header>
+            <font face="Verdana" style="font-size: 9pt" color="#AFA461"><b>Mensagem&#58;</b></font></SPAN></TD>
+          <TD width=369 height=41 align="center">
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">&nbsp;<FONT face=Verdana 
+            size=1><span style="font-size: 9pt"><textarea class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite sua mensagem');" 
+            name=mensagem rows="4" cols="50"></textarea></span></FONT></P></TD></TR>
+        <tr>
+          <TD width=188 height=4 bgcolor="#000000">
+          </TD>
+          <TD width=369 height=4 align="center" bgcolor="#000000">
+            </TD>
+        </tr>
+        
+        <TR>
+          <TD width=563 colSpan=2 height=53>
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><SPAN 
+            class=box-header>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <INPUT class=frm onmouseover="this.className='frm-on';" onmouseout="this.className='frm';" type=submit value=Enviar></SPAN><FONT 
+            face=Verdana> </FONT><SPAN class=box-header><INPUT class=frm onmouseover="this.className='frm-on';" onmouseout="this.className='frm';" type=reset value=Limpar></SPAN>
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center>
+            </TD></TR>
+        <tr>
+          <TD width=563 colSpan=2 height=25 bgcolor="#333300">
+            <p align="center">
+            <font face="Verdana" style="font-weight: 700" size="1">
+            <font color="#AFA461">...&#58;&#58;&#58;&nbsp;Desenvolvido&nbsp;por&nbsp;
+            </font>
+            <a title="  Desenvolvimento web sites, formul&aacute;rios e hospedagem. " href="mailto:comercial&#64;nasctem.com.br">
+            <font color="#AFA461">Nascimento</font></a><font color="#AFA461">&nbsp;&copy;&nbsp;
+            <a title="  NASCTEM - HOSPEDAGEM E DESENVOLVIMENTO  " target="_blank" href="http://www.nasctem.com">
+            <font color="#AFA461">Grupo NASCTEM</font></a>&nbsp;2003-2007&nbsp;..&#58;&#58;..&nbsp;Vers&atilde;o&nbsp;2.8.0&nbsp;&#58;&#58;&#58;...</font></font></TD>
+        </tr><!--------NÃO REMOVER OS DADOS DE DIREITOS AUTORAIS------>
+        </TBODY></TABLE></CENTER></DIV></FORM></TD></TR></TBODY></TABLE></CENTER></DIV>
+ 
+          
+        
+</BODY>
+</HTML>
+ 
+ 
+Arquivo cadastro.PHP
+ 
+<HTML><HEAD>
+<meta http-equiv="Content-Language" content="pt-br">
+<TITLE>...&#58;&#58;&#58;&nbsp;FORMUL&Aacute;RIO&nbsp;DE&nbsp;CADASTRO&nbsp;PESSOA&nbsp;J&Uacute;RIDICA&nbsp;&#58;&#58;&#58;...</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="Microsoft FrontPage 4.0" name=GENERATOR>
+<!----Pedimos a colaboração aos usuários deste formulário, que não retirem os dados dos direitos autorais------>
+<!----Formulário desenvolvido por Nascimento Grupo NASCTEM - e-mail: admin@nasctem.com nasctem@yahoo.com.br------>
+<!----Formulário desenvolvido em 20/08/2004 a primeira versão, somente agora estamos disponibilizando 
+a versão atualizada do mesmo v2.8.0 em 03/04/2007------->
+<!----Dúvidas utilize o nosso e-mail: suporte@nasctem.com------>
+<STYLE>.cellbox {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #888888 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #888888 1px solid
+}
+.box-header {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.frm {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f0f0f0
+}
+.frm-on {
+	BORDER-RIGHT: rgb(70,90,128) 1px solid; BORDER-TOP: rgb(70,90,128) 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: rgb(70,90,128) 1px solid; COLOR: rgb(70,90,128); BORDER-BOTTOM: rgb(70,90,128) 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: rgb(177,203,255)
+}
+.text-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Verdana
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: rgb(0,128,255); FONT-FAMILY: Verdana
+}
+</STYLE>
+ 
+<SCRIPT language=JavaScript>
+<!--
+function SymError()
+{
+  return true;
+}
+window.onerror = SymError;
+//-->
+ 
+    </SCRIPT>
+ 
+<SCRIPT>
+      function displayText( sText ) {
+        document.getElementById("displayArea").innerHTML = sText;
+      }
+    </SCRIPT>
+ 
+</HEAD>
+<BODY bgcolor="#1FC8EB">
+<DIV align=center>
+<CENTER>
+ 
+<table border="2" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#1FC8EB" width="507" id="AutoNumber2" height="85" bgcolor="#1FC8EB">
+  <tr>
+    <td width="563" height="85" valign="middle">
+    <p align="center">
+    <img border="0" src="images/seu_logo_aqui_01.gif" width="327" height="70"></td>
+  </tr>
+</table>
+ 
+<TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" borderColor=#1FC8EB 
+height=424 cellSpacing=0 cellPadding=0 width=507 border=1>
+  <TBODY>
+  <TR>
+    <TD width=507 bgColor=#000000 height=18>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><b><font face="Verdana" color="#ffffff" size="2">Formul&aacute;rio
+     &nbsp;de&nbsp;Cadastro&nbsp;Pessoa&nbsp;J&uacute;ridica</font></b></P></TD></TR>
+  <TR>
+    <TD align=justify width=507 height=402>
+      <DIV align=center>
+      <CENTER>
+                <TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" 
+      borderColor=#111111 height=200 cellSpacing=0 cellPadding=0 width=328 
+      border=0>                  
+             <!--DWLayoutTable-->
+                  <TBODY>
+                    <TR> 
+                      <TD width=67 height=44> </TD>
+                      <TD width=251 height="44"></TD>
+                      <TD width=66 height="44"></TD>
+                    </TR>
+					<?php
+if (!$razaosocial || !$nomefantasia || !$cnpj || !$ie || !$im || !$ddd || !$telefone || !$fax || !$endereco || !$numero || !$complemento || !$bairro || !$cidade || !$cep || !$uf || !$email || !$responsavel || !$telresp || !$empresaref || !$telefoneref || !$contatoref || !$empresaref1 || !$telefoneref1 || !$contatoref1 || !$mensagem) {
+ echo "<DIV align=center><p align=center><font face=Verdana, Arial size=2 color=#000066>Favor preencher os dados corretamente!<br>";
+  echo "<a href="javascript:history.back(1)">Voltar</a>";
+ }else{
+ echo "
+                    <tr> 
+                      <TD height=22 colspan=3> <p align=center><font face=Verdana size=2>Olá 
+                          <font color=#FF0000><b>$responsavel</b></font>,</font> 
+                      </TD>
+                    </tr>
+                    <TR> 
+                      <TD height=22 colspan=3> <p align=center><font face=Verdana size=2>Seu&nbsp;
+                           Cadastro&nbsp;foi&nbsp;enviado&nbsp;com&nbsp;sucesso!</font> </TD>
+                    </TR>
+                    <tr> 
+                      <TD height=22> </TD>
+                      <TD></TD>
+                      <TD></TD>
+                    </tr>
+                    <TR> 
+                      <TD height=23 colspan=3> <p align=center><font face=Verdana size=2>No&nbsp;
+                          máximo&nbsp;em&nbsp;72&nbsp;horas&nbsp;entraremos&nbsp;em&nbsp;contato.</font> </TD>
+                    </TR>
+                    <tr> 
+                      <TD height=23 colspan=3> <p align=center><font face=Verdana size=2>Atenciosamente!<br><br><!--ALTERE AQUI PARA OS SEU DADOS--->AQUI SEUS DAODS</font> 
+                      </TD>
+                    </tr>";
+ $mens = "<font size=2 face=Verdana><p align=center>&#58;&#58;&nbsp;Formul&aacute;rio&nbsp;de&nbsp;Cadastro&nbsp;Pessoa&nbsp;J&uacute;ridica&nbsp;&#58;&#58;<br><br></p></font>";
+ $mens .= "<font size=2 face=Verdana><b>Razão Social:</b> $razaosocial</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Nome Fantasia:</b> $nomefantasia</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>CNPJ:</b> $cnpj</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>IE:</b> $ie</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>IM:</b> $im</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>DDD:</b> $ddd</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Telefone:</b> $telefone</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Fax:</b> $fax</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Endereço:</b> $endereco</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Número:</b> $numero</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Complemento:</b> $complemento</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Bairro:</b> $bairro</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Cidade:</b> $cidade</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>CEP:</b> $cep</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Estado:</b> $uf</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Responsável:</b> $responsavel</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Telefone:</b> $telresp</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Empresa:</b> $empresaref</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Telefone:</b> $telefoneref</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Contato:</b> $contatoref</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Empresa:</b> $empresaref1</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Telefone:</b> $telefoneref1</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Contato:</b> $contatoref1</font><br><br>";
+ $mens .= "<font size=2 face=Verdana><b>Mensagem:</b> $mensagem</font><br><br>";
+ 
+ $headers = "MIME-Version: 2.8.0rn";
+ $headers .= "Content-type: text/html; charset=iso-8859-1rn";
+ $headers .= "From: 'Formulário'rn";
+ 
+   mail("seunome@seu_site.com.br","Formulário de Cadastro","$mens", $headers);
+echo "                    <TR> 
+                      <TD height=13> </TD>
+                      <TD></TD>
+                      <TD></TD>
+                    </TR>
+                    <TR>
+                      <TD height=12></TD>
+                      <TD valign=top><div align=center><font size=2 face=Verdana, Arial, Helvetica, sans-serif><a href=index.html>Voltar</a></font></div></TD>
+                      <TD></TD>
+                    </TR>";
+					}
+					?>
+                    <TR>
+                      <TD height=94></TD>
+                      <TD>&nbsp;</TD>
+                      <TD></TD>
+                    </TR>
+                    <tr> 
+                      <TD height=12 colspan="3"> <p align="center"><font face="Verdana" size="1">...&#58;&#58;&#58;&nbsp;
+                          Desenvolvido&nbsp;por&nbsp;<a href="mailto:comercial&#64;nasctem.com.br">Nascimento</a>&nbsp;&copy;&nbsp;Grupo NASCTEM&nbsp;&#58;&#58;&nbsp;Versão 2.8.0&nbsp;&#58;&#58;&#58;...</font></TD>
+                    </tr>
+                  </TBODY>
+                </TABLE>
+              </CENTER></DIV></FORM></TD></TR></TBODY></TABLE></CENTER></DIV></BODY></HTML>
